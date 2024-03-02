@@ -70,7 +70,7 @@ function renderTable(data) {
                 img.style.width = '100px'; // Set width to auto for actual size
                 img.style.height = '100px'; // Set height to auto for actual size
                 img.style.transform = 'scaleX(-1)'; // Mirror horizontally
-                img.style.filter = 'invert(100%)'; // Color invert
+                img.style.filter = 'invert(0%)'; // Color invert
                 td.appendChild(img);
             } else {
                 td.textContent = cell;
